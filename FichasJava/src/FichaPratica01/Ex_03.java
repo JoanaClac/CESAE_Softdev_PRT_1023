@@ -9,24 +9,24 @@ public class Ex_03 {
         Scanner input = new Scanner(System.in);
 
         // Declarar variáveis
-        int num1, num2, area, perimetro;
+        int largura, comprimento, area, perimetro;
 
-        // Ler num1 (largura)
-        System.out.print("Insira um numero: ");
-        num1 = input.nextInt();
+        // Ler largura
+        System.out.print("Insira a largura: ");
+        largura = input.nextInt();
 
-        // Ler num2 (altura)
-        System.out.print("Insira um numero: ");
-        num2 = input.nextInt();
+        // Ler num2 comprimento
+        System.out.print("Insira o comprimento: ");
+        comprimento = input.nextInt();
 
         // Calcular area
-        area = num1*num2;
+        area = largura*comprimento;
 
         // Apresentar area
         System.out.println("Area: " + area);
 
         // Calcular perimetro
-        perimetro = 2*(num1+num2);
+        perimetro = 2*(largura+comprimento);
 
         // Apresentar perimetro
         System.out.println("Perimetro: " + perimetro);

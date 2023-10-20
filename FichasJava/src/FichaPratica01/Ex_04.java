@@ -14,7 +14,7 @@ public class Ex_04 {
 
         // Ler raio
         System.out.print("Insira o raio: ");
-        raio= input.nextInt();
+        raio= input.nextDouble();
 
         // Apresentar raio
         System.out.println("Raio: " + raio);
