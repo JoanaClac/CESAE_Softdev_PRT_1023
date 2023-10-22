@@ -2,7 +2,7 @@ package FichaPratica02;
 
 import java.util.Scanner;
 
-public class Ex_09 {
+public class Ex_10 {
     public static void main(String[] args) {
 
         // instanciar o Scanner (obrigatório para todos os exercícios)
